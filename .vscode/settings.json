@@ -1,0 +1,75 @@
+{
+  // only settings
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "block",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.formatOnSave": true,
+  // import cost ext settings
+  "importCost.smallPackageSize": 50,
+  "importCost.mediumPackageSize": 100,
+  "importCost.smallPackageColor": "#7cc36e",
+  "importCost.mediumPackageColor": "#7cc36e",
+  "importCost.largePackageColor": "#d44e40",
+  "importCost.typescriptExtensions": [
+    "\\.tsx?$"
+  ],
+  "importCost.javascriptExtensions": [
+    "\\.jsx?$"
+  ],
+  "importCost.bundleSizeDecoration": "both",
+  "importCost.showCalculatingDecoration": true,
+  "importCost.debug": false,
+  // jsannotations ext settings
+  "jsannotations.enabled": true,
+  "jsannotations.hideIfEqual": true,
+  "jsannotations.hideInvalidAnnotation": true,
+  "jsannotations.hideDiagnostics": false,
+  "jsannotations.fontWeight": "400",
+  "jsannotations.fontStyle": "italic",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "explorer.confirmDelete": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.productIconTheme": "material-product-icons",
+  "gitlens.hovers.currentLine.over": "line",
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "vscodeGoogleTranslate.preferredLanguage": "Uzbek",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[handlebars]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.alwaysShowStatus": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.unstable": true,
+  "deno.path": "~/.deno",
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  }
+}
