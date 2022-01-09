@@ -71,5 +71,7 @@
     "yaml": false,
     "plaintext": false,
     "markdown": false
-  }
+  },
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "workbench.editor.enablePreview": false
 }
