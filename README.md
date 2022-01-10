@@ -1,1 +1,1 @@
-<h1>My configuration settings</h1>
+<h1>My configuration files</h1>
