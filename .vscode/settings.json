@@ -73,5 +73,6 @@
     "markdown": false
   },
   "security.workspace.trust.untrustedFiles": "newWindow",
-  "workbench.editor.enablePreview": false
+  "workbench.editor.enablePreview": false,
+  "editor.fontFamily": "'MesloLGS NF Regular', 'Monospace Regular', 'Source Code Pro Medium', sans-serif"
 }
