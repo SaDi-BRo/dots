@@ -2,7 +2,7 @@
   // only settings
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "One Dark Pro",
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
   "editor.tabSize": 2,
   "editor.cursorStyle": "block",
   "editor.cursorSmoothCaretAnimation": true,
@@ -74,5 +74,5 @@
   },
   "security.workspace.trust.untrustedFiles": "newWindow",
   "workbench.editor.enablePreview": false,
-  "editor.fontFamily": "'MesloLGS NF Regular', 'Monospace Regular', 'Source Code Pro Medium', sans-serif"
+  "editor.fontFamily": "'DroidSansMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
 }
