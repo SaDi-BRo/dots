@@ -4,4 +4,4 @@
 [core]
 	editor = code
 [init]
-	defaultBranch = master
+	defaultBranch = main
