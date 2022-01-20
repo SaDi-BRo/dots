@@ -1,8 +1,6 @@
 {
-  // only settings
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "One Dark Pro",
-  "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
   "editor.tabSize": 2,
   "editor.cursorStyle": "block",
   "editor.cursorSmoothCaretAnimation": true,
@@ -10,30 +8,7 @@
   "workbench.list.smoothScrolling": true,
   "editor.cursorBlinking": "smooth",
   "editor.formatOnSave": true,
-  // import cost ext settings
-  "importCost.smallPackageSize": 50,
-  "importCost.mediumPackageSize": 100,
-  "importCost.smallPackageColor": "#7cc36e",
-  "importCost.mediumPackageColor": "#7cc36e",
-  "importCost.largePackageColor": "#d44e40",
-  "importCost.typescriptExtensions": [
-    "\\.tsx?$"
-  ],
-  "importCost.javascriptExtensions": [
-    "\\.jsx?$"
-  ],
-  "importCost.bundleSizeDecoration": "both",
-  "importCost.showCalculatingDecoration": true,
-  "importCost.debug": false,
-  // jsannotations ext settings
-  "jsannotations.enabled": true,
-  "jsannotations.hideIfEqual": true,
-  "jsannotations.hideInvalidAnnotation": true,
-  "jsannotations.hideDiagnostics": false,
-  "jsannotations.fontWeight": "400",
-  "jsannotations.fontStyle": "italic",
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "explorer.confirmDelete": false,
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -47,7 +22,6 @@
   "workbench.productIconTheme": "material-product-icons",
   "gitlens.hovers.currentLine.over": "line",
   "html.completion.attributeDefaultValue": "singlequotes",
-  "vscodeGoogleTranslate.preferredLanguage": "Uzbek",
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -58,21 +32,22 @@
   "[handlebars]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "eslint.alwaysShowStatus": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true,
-  "prettier.arrowParens": "avoid",
   "deno.enable": true,
   "deno.lint": true,
   "deno.unstable": true,
   "deno.path": "~/.deno",
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "yaml": false,
     "plaintext": false,
     "markdown": false
   },
   "security.workspace.trust.untrustedFiles": "newWindow",
   "workbench.editor.enablePreview": false,
-  "editor.fontFamily": "'DroidSansMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
+  "editor.fontFamily": "'DroidSansMono Nerd Font', 'Source Code Pro', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "terminal.integrated.fontFamily": "'MesloLGS Nerd Font', 'Source Code Variable'",
+  "bracketPairColorizer.depreciation-notice": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
 }
