@@ -112,6 +112,8 @@ alias c="clear"
 alias ..="cd .."
 alias shut="shutdown now"
 alias restart="reboot"
+alias e="exit"
+alias update="yay -Syyu"
 
 # Deno
 export DENO_INSTALL="/home/sad1go0/.deno"
@@ -122,3 +124,6 @@ export PATH="$DENO_INSTALL/bin:$PATH"
 
 # Startup commands
 clear && neofetch
+
+export PNPM_HOME="/home/sad1go0/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
