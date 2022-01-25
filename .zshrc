@@ -114,6 +114,7 @@ alias shut="shutdown now"
 alias restart="reboot"
 alias e="exit"
 alias update="yay -Syyu"
+alias v="ls -a"
 
 # Deno
 export DENO_INSTALL="/home/sad1go0/.deno"
