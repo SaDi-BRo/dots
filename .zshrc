@@ -110,6 +110,7 @@ source $ZSH/oh-my-zsh.sh
 # Some aliases
 alias c="clear"
 alias ..="cd .."
+alias .="cd"
 alias shut="shutdown now"
 alias restart="reboot"
 alias e="exit"
@@ -125,6 +126,3 @@ export PATH="$DENO_INSTALL/bin:$PATH"
 
 # Startup commands
 clear && neofetch
-
-export PNPM_HOME="/home/sad1go0/.local/share/pnpm"
-export PATH="$PNPM_HOME:$PATH"
