@@ -7,7 +7,6 @@
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
   "editor.cursorBlinking": "smooth",
-  "editor.formatOnSave": true,
   "editor.suggestSelection": "first",
   "explorer.confirmDelete": false,
   "[json]": {
@@ -15,7 +14,7 @@
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "explorer.confirmDragAndDrop": false,
   "tabnine.experimentalAutoImports": true,
@@ -48,6 +47,13 @@
   "terminal.integrated.fontFamily": "'MesloLGS Nerd Font', 'Source Code Variable'",
   "bracketPairColorizer.depreciation-notice": false,
   "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  }
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "thunder-client.codeSnippetLanguage": "cs-httpclient",
+  "editor.inlineSuggest.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.alwaysShowStatus": true,
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+  "editor.formatOnSave": true
 }
