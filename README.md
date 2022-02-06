@@ -6,6 +6,7 @@
   <li><b>Shell:</b> zsh (oh my zsh)</li>
   <li><b>DE:</b> GNOME</li>
   <li><b>Terminal Font:</b> Source Code Pro</li>
+  <li><b>Terminal Theme:</b> powerlevel10k</li>
   <li><b>Theme:</b> Nordic</li>
   <li><b>Icons:</b> Zafiro</li>
 </ul>
