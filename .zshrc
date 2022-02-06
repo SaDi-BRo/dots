@@ -125,4 +125,4 @@ export PATH="$DENO_INSTALL/bin:$PATH"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Startup commands
-clear && neofetch
+c && neofetch
