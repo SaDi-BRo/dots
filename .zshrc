@@ -115,6 +115,7 @@ alias shut="shutdown now"
 alias restart="reboot"
 alias e="exit"
 alias update="yay -Syyu"
+alias clean="yay -Scc"
 alias v="ls -a"
 
 # Deno
