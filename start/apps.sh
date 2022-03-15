@@ -55,4 +55,6 @@ echo "Installing npm"
 yay -S npm
 echo "npm has installed"
 
+clear
+
 echo "All apps has installed"
