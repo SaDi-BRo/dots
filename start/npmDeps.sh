@@ -40,6 +40,11 @@ echo "Installing prettier"
 sudo npm i -g prettier
 echo "prettier has installed"
 
+# heroku
+echo "Installing heroku"
+sudo npm i -g heroku
+echo "heroku has installed"
+
 clear
 
 echo "All dependencies has installed"
