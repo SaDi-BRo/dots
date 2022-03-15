@@ -40,4 +40,6 @@ echo "Installing prettier"
 sudo npm i -g prettier
 echo "prettier has installed"
 
+clear
+
 echo "All dependencies has installed"
