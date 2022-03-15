@@ -45,6 +45,11 @@ echo "Installing Postman"
 yay -S postman-bin
 echo "Postman has installed"
 
+# Heroku CLI
+echo "Installing Heroku CLI"
+yay -S heroku-cli
+echo "Heroku CLI has installed"
+
 # NodeJS
 echo "Installing NodeJS"
 yay -S nodejs-lts-gallium
