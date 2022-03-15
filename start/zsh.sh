@@ -16,3 +16,7 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git \
 # powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git \
   ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
+clear
+
+echo "oh my zsh and its plugins and theme has installed"
