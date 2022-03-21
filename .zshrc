@@ -119,7 +119,7 @@ alias clean="yay -Scc"
 alias v="ls -a"
 
 # Deno
-export DENO_INSTALL="/home/sadi/.deno"
+export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
