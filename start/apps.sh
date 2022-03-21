@@ -12,7 +12,7 @@ echo "Spotify has installed"
 
 # Visual Studio Code
 echo "Installing Visual Studio Code"
-yay -S visual-studio-code-bit
+yay -S visual-studio-code-bin
 echo "Visual Studio Code has installed"
 
 # MongoDB
