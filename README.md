@@ -5,7 +5,6 @@
   <li><b>OS:</b> Arch Linux</li>
   <li><b>Shell:</b> zsh (oh my zsh)</li>
   <li><b>WM:</b> bspwm</li>
-  <li><b>Font:</b> Arimo Nerd Font</li>
   <li><b>Terminal Font:</b> Source Code Pro</li>
   <li><b>Terminal Theme:</b> powerlevel10k</li>
 </ul>
