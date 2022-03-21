@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	urxvt
+	xfce4-terminal
 
 # program launcher
 super + @space
@@ -119,3 +119,32 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# file manager
+super + e
+	nautilus
+
+# screenshot
+Print
+	flameshot gui
+
+# Volume control
+XF86AudioRaiseVolume
+	amixer set Master 10%+
+
+XF86AudioLowerVolume
+	amixer set Master 10%-
+
+XF86AudioMute
+	amixer set Master toggle
+
+# Brightness control
+XF86MonBrightnessUp
+	xbacklight -inc 10
+
+XF86MonBrightnessDown
+	xbacklight -dec 10
+
+# lockscreen
+super + l
+	betterlockscreen -l dimblur
