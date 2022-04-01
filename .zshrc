@@ -107,6 +107,17 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+function google() {
+  if [ -z "$1" ]; then
+    echo "No argument"
+    return
+  fi
+  echo "Searching for $@"
+  search_string="$@"
+
+  xdg-open "https://google.com/search?q=$search_string" && return
+}
+
 # Some aliases
 alias c="clear"
 alias ..="cd .."
@@ -116,7 +127,9 @@ alias res="reboot"
 alias e="exit"
 alias update="yay -Syyu"
 alias clean="yay -Scc"
+alias ls="lsd"
 alias v="ls -a"
+alias netspeed="curl -o /dev/null cachefly.cachefly.net/100mb.test"
 
 # Deno
 export DENO_INSTALL="$HOME/.deno"
