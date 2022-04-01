@@ -4,11 +4,12 @@
 
 # terminal emulator
 super + Return
-	xfce4-terminal
+	kitty
 
 # program launcher
 super + @space
-	dmenu_run
+	rofi -show run
+	#dmenu_run
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -146,5 +147,5 @@ XF86MonBrightnessDown
 	xbacklight -dec 10
 
 # lockscreen
-super + l
+super + x
 	betterlockscreen -l dimblur
