@@ -71,6 +71,10 @@ echo "Installing flameshot"
 yay -S flameshot
 echo "flameshot has installed"
 
+echo "Installing lsd"
+yay -S lsd
+echo "lsd has installed"
+
 clear
 
 echo "All apps has installed"
