@@ -55,6 +55,22 @@ echo "Installing npm"
 yay -S npm
 echo "npm has installed"
 
+echo "Installing picom"
+yay -S picom-jonaburg-git
+echo "picom has installed"
+
+echo "Installing rofi"
+yay -S rofi
+echo "rofi has installed"
+
+echo "Installing nautilus"
+yay -S nautilus
+echo "nautilus has installed"
+
+echo "Installing flameshot"
+yay -S flameshot
+echo "flameshot has installed"
+
 clear
 
 echo "All apps has installed"
