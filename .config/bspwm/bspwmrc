@@ -1,8 +1,6 @@
 #! /bin/sh
 
 sxhkd &
-setxkbmap -option grp:alt_shift_toggle us,ru &
-xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Tapping Enabled" 1 &
 $HOME/.config/polybar/launch.sh &
 
 bspc monitor -d I II III IV V VI VII VIII IX X

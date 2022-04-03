@@ -118,7 +118,32 @@ function google() {
   xdg-open "https://google.com/search?q=$search_string" && return
 }
 
+function youtube() {
+   if [ -z "$1" ]; then
+     echo "No argument"
+     return
+   fi
+   echo "Searching for $@"
+   search_string="$@"
+
+   xdg-open "https://www.youtube.com/results?search_query=$search_string" && return
+}
+
+function github() {
+   if [ -z "$1" ]; then
+     echo "No argument"
+     return
+   fi
+   echo "Searching for $@"
+   search_string="$@"
+
+   xdg-open "https://github.com/search?q=$search_string" && return
+}
+
 # Some aliases
+alias fetch="neofetch"
+alias install="yay -S"
+alias uninstall="yay -Rs"
 alias c="clear"
 alias ..="cd .."
 alias .="cd"
@@ -135,8 +160,12 @@ alias netspeed="curl -o /dev/null cachefly.cachefly.net/100mb.test"
 export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
+# Osmon
+export OSMON_INSTALL="$HOME/.osmon"
+export PATH="$OSMON_INSTALL/bin:$PATH"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Startup commands
-c && neofetch
+c && fetch
