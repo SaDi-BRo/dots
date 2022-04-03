@@ -35,16 +35,6 @@ echo "Installing Google Chrome"
 yay -S google-chrome
 echo "Google Chrome has installed"
 
-# Github Desktop
-echo "Installing Github Desktop"
-yay -S github-desktop-bin
-echo "Github Desktop has installed"
-
-# Postman
-echo "Installing Postman"
-yay -S postman-bin
-echo "Postman has installed"
-
 # NodeJS
 echo "Installing NodeJS"
 yay -S nodejs-lts-gallium
@@ -55,22 +45,27 @@ echo "Installing npm"
 yay -S npm
 echo "npm has installed"
 
+# picom
 echo "Installing picom"
 yay -S picom-jonaburg-git
 echo "picom has installed"
 
+# rofi
 echo "Installing rofi"
 yay -S rofi
 echo "rofi has installed"
 
+# nautilus
 echo "Installing nautilus"
 yay -S nautilus
 echo "nautilus has installed"
 
+# flameshot
 echo "Installing flameshot"
 yay -S flameshot
 echo "flameshot has installed"
 
+# lsd
 echo "Installing lsd"
 yay -S lsd
 echo "lsd has installed"
