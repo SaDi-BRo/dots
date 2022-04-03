@@ -70,6 +70,11 @@ echo "Installing lsd"
 yay -S lsd
 echo "lsd has installed"
 
+# obs-studio
+echo "Installing obs-studio"
+yay -S obs-studio
+echo "obs-studio has installed"
+
 clear
 
 echo "All apps has installed"
