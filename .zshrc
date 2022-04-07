@@ -142,8 +142,8 @@ function github() {
 
 # Some aliases
 alias fetch="neofetch"
-alias install="yay -S"
-alias uninstall="yay -Rs"
+alias i="yay -S"
+alias un="yay -Rs"
 alias c="clear"
 alias ..="cd .."
 alias .="cd"
