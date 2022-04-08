@@ -12,6 +12,7 @@
     "esbenp.prettier-vscode",
     "rust-lang.rust",
     "rangav.vscode-thunder-client",
-    "denoland.vscode-deno"
+    "denoland.vscode-deno",
+    "golang.Go"
   ]
 }
