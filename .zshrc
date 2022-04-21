@@ -154,6 +154,7 @@ alias update="yay -Syyu"
 alias clean="yay -Scc"
 alias ls="lsd"
 alias v="ls -a"
+alias vi="nvim"
 alias netspeed="curl -o /dev/null cachefly.cachefly.net/100mb.test"
 
 # Deno
