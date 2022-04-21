@@ -9,13 +9,14 @@
   <li><b>Terminal Font:</b> JetBrainsMono Nerd Font Mono</li>
   <li><b>Terminal Theme:</b> powerlevel10k</li>
 </ul>
-<ul style="list-style-type:none;">
-  <li>Used tools:</li>
-  <li>neovim</li>
-  <li>figlet</li>
-  <li>lolcat</li>
-  <li>cmatrix</li>
-  <li>nerdfetch</li>
-  <li>cava</li>
-  <li>neofetch</li>
-</ul>
+
+<p>
+  Used tools: <br />
+  neovim <br />
+  figlet <br />
+  lolcat <br />
+  cmatrix <br />
+  nerdfetch <br />
+  cava <br />
+  neofetch
+</p>
