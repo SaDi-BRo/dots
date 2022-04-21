@@ -4,9 +4,9 @@ let g:mapleader = "\<Space>"
 syntax enable																						" Enables syntax higlighting
 set hidden																							" Required to keep multiple buffers open multiple buffers
 set nowrap																							" Display long lines as just one line
-set encoding=utf-8																			" The encoding displayed
+set encoding=UTF-8																			" The encoding displayed
 set pumheight=10																				" Makes popup menu smaller
-set fileencoding=utf-8																	" The encoding written to file
+set fileencoding=UTF-8																	" The encoding written to file
 set ruler																								" Show the cursor position all the line
 set cmdheight=2																					" More space for displaying messages
 set iskeyword+=-                                        " Treat dash separated words as a word text object
@@ -32,8 +32,10 @@ set timeoutlen=100																			" By default timeoutlen is 1000 ms
 set formatoptions-=cro																	" Stop newline continution of comments
 set clipboard=unnamedplus																" Copy paste between vim and everything else
 set ignorecase                                          " All your searches will be case insensitive
-set incsearch
-" set autochdir																						" Your working directory will always be the same as your working directory
+set incsearch                                           " Incremental Search command is used to highlight the searching string while typing.
+set autochdir																						" Your working directory will always be the same as your working directory
+
+colorscheme onedark
 
 au! BufWritePost $MYVIMRC source % 											" Auto source when writing to init.vim alternatively you can  run :source $MYVIMRC
 

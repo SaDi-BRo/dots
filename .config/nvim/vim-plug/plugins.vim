@@ -4,6 +4,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'sheerun/vim-polyglot'
   " File Explorer
   Plug 'preservim/nerdtree'
+  Plug 'Xuyuanp/nerdtree-git-plugin'
   " Auto Pairs for "(" "[" "{"
   Plug 'jiangmiao/auto-pairs'
   " Theme
@@ -13,13 +14,20 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Status Line
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
-  " Ranger
-  Plug 'kevinhwang91/rnvimr'
   " Startify
   Plug 'mhinz/vim-startify'
   " Icons
   Plug 'ryanoasis/vim-devicons'
   " Copoilot
   Plug 'github/copilot.vim'
-
+  " Color preview
+  Plug 'ObserverOfTime/coloresque.vim'
+  " Last place
+  Plug 'farmergreg/vim-lastplace'
+  " Commentary
+  Plug 'tpope/vim-commentary'
+  
+  " Plug 'terryma/vim-multiple-cursors'
+  " Plug 'preservim/tagbar'
+  " Plug 'junegunn/fzf.vim'
 call plug#end()
