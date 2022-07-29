@@ -137,7 +137,7 @@ function github() {
   echo "Searching for $@"
   search_string="$@"
 
-  xdg-open "https://github.com/search?q=$search_string"
+  xdg-open "https://github.com/search?q=$search_string" && return
 }
 
 # Some aliases
