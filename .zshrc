@@ -153,7 +153,7 @@ alias e="exit"
 alias update="yay -Syyu"
 alias clean="yay -Scc"
 alias ls="lsd"
-alias v="ll -a"
+alias v="ls -la"
 alias vi="nvim"
 alias netspeed="curl -o /dev/null cachefly.cachefly.net/100mb.test"
 
