@@ -161,11 +161,7 @@ alias netspeed="curl -o /dev/null cachefly.cachefly.net/100mb.test"
 export DENO_INSTALL="$HOME/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
-# Osmon
-export OSMON_INSTALL="$HOME/.osmon"
-export PATH="$OSMON_INSTALL/bin:$PATH"
-
-source $HOME/.oh-my-zsh/custom/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+# source $HOME/.oh-my-zsh/custom/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
