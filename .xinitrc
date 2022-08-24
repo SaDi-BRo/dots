@@ -58,6 +58,7 @@ export SSH_AUTH_SOCK
 # see https://github.com/NixOS/nixpkgs/issues/14966#issuecomment-520083836
 mkdir -p "$HOME"/.local/share/keyrings
 
+systemctl --user start mpd &
 setxkbmap -option grp:alt_shift_toggle us,ru &
 xinput set-prop "ETPS/2 Elantech Touchpad" "libinput Tapping Enabled" 1 &
 $HOME/.screenlayout/display.sh &
