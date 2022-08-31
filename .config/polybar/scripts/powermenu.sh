@@ -57,10 +57,10 @@ case $chosen in
         fi
         ;;
     $lock)
-		if [[ -f /usr/bin/i3lock ]]; then
+		if [[ -f /usr/bin/betterlockscreen ]]; then
+			betterlockscreen -l dim
+		elif [[ -f /usr/bin/i3lock ]]; then
 			i3lock
-		elif [[ -f /usr/bin/betterlockscreen ]]; then
-			betterlockscreen -l
 		fi
         ;;
     $suspend)
@@ -69,6 +69,7 @@ case $chosen in
 			mpc -q pause
 			amixer set Master mute
 			systemctl suspend
+			betterlockscreen -l dim
 		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
 			exit 0
         else
