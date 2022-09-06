@@ -17,17 +17,14 @@ require("nvim-tree").setup({
   },
 })
 
--- onedark
-require('onedark').setup {
-  style = 'warmer'
-}
-require('onedark').load()
+-- Theme (nord)
+vim.cmd[[colorscheme nord]]
 
 -- lualine
 require('lualine').setup {
   options = {
     icons_enabled = true,
-    theme = 'iceberg',
+    theme = 'nord',
     component_separators = { left = '', right = ''},
     section_separators = { left = '', right = ''},
     disabled_filetypes = {
