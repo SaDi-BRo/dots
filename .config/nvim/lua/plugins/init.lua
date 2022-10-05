@@ -24,4 +24,6 @@ return require('packer').startup(function()
   use { 'rcarriga/nvim-notify' }
   --> Signify (git)
   use { 'mhinz/vim-signify' }
+  --> Colorizer
+  use { 'norcalli/nvim-colorizer.lua' }
 end)

@@ -64,3 +64,5 @@ require('lualine').setup {
 
 -- Notify
 vim.notify = require('notify')
+
+require('colorizer').setup()
